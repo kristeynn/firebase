@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage</title>
+  <link rel="stylesheet" href="stylew.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>Welcome, You Are Verified.</h1>
+    <div id="userInfo" class="user-info"></div>
+    <div class="verification-status" id="verificationStatus">
+      <!-- Verification status will be displayed here -->
+    </div>
+    <button id="logoutButton">Logout</button>
+  </div>
+
+  <script>
+    document.getElementById("logoutButton").addEventListener("click", function () {
+      // Redirect to the login page (replace "login.htm" with the actual login page URL)
+      window.location.href = "index.htm";
+    });
+  </script>
+
+</body>
+</html>
